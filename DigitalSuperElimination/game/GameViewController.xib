@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GameViewController" customModule="DigitalSuperElimination" customModuleProvider="target">
+            <connections>
+                <outlet property="gameView" destination="MwH-8E-LUg" id="dXB-dx-TI4"/>
+                <outlet property="levelLabel" destination="vnE-2T-mlI" id="VRf-V2-wtQ"/>
+                <outlet property="progress" destination="fo5-5V-Lqi" id="gjS-al-Xgh"/>
+                <outlet property="timeLabel" destination="Iay-6U-vxS" id="lnG-r2-EpL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="8k0-Mr-v8U">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3x-6m-FzU">
+                    <rect key="frame" x="20" y="40" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="6oC-8O-C2y"/>
+                        <constraint firstAttribute="width" constant="50" id="D0l-Pf-sfQ"/>
+                    </constraints>
+                    <state key="normal" image="back"/>
+                    <state key="highlighted" image="back_clk"/>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="kki-Ak-sx1"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MwH-8E-LUg">
+                    <rect key="frame" x="22.5" y="168.5" width="330" height="330"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="330" id="L1f-Wr-wkX"/>
+                        <constraint firstAttribute="height" constant="330" id="xfC-rc-RbF"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnE-2T-mlI">
+                    <rect key="frame" x="171.5" y="30" width="32" height="63"/>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="48"/>
+                    <color key="textColor" red="0.94478148220000002" green="0.8099685311" blue="0.50256663560000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="倒计时：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDw-uW-wIK">
+                    <rect key="frame" x="262" y="54.5" width="70" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iay-6U-vxS">
+                    <rect key="frame" x="332" y="54.5" width="23" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <progressView opaque="NO" contentMode="scaleAspectFill" verticalHuggingPriority="750" progress="1" progressImage="progress" trackImage="progress_trick" translatesAutoresizingMaskIntoConstraints="NO" id="fo5-5V-Lqi">
+                    <rect key="frame" x="22.5" y="123.5" width="330" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="pqY-jJ-LE9"/>
+                    </constraints>
+                </progressView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8k0-Mr-v8U" secondAttribute="trailing" id="4ev-L3-VJs"/>
+                <constraint firstItem="Iay-6U-vxS" firstAttribute="leading" secondItem="zDw-uW-wIK" secondAttribute="trailing" id="Av9-RS-StS"/>
+                <constraint firstItem="8k0-Mr-v8U" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="BTD-AS-oyf"/>
+                <constraint firstItem="fo5-5V-Lqi" firstAttribute="width" secondItem="MwH-8E-LUg" secondAttribute="width" id="DpN-vp-nPq"/>
+                <constraint firstItem="vnE-2T-mlI" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="HFg-tG-qdc"/>
+                <constraint firstItem="MwH-8E-LUg" firstAttribute="top" secondItem="fo5-5V-Lqi" secondAttribute="bottom" constant="25" id="HqB-eF-BwW"/>
+                <constraint firstItem="Iay-6U-vxS" firstAttribute="centerY" secondItem="zDw-uW-wIK" secondAttribute="centerY" id="J5G-xk-Ntl"/>
+                <constraint firstItem="8k0-Mr-v8U" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Rw6-Yv-cL8"/>
+                <constraint firstItem="O3x-6m-FzU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="S5e-Cl-jmc"/>
+                <constraint firstItem="MwH-8E-LUg" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Xaf-Dv-NFd"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Iay-6U-vxS" secondAttribute="trailing" constant="20" id="fau-ZL-PHa"/>
+                <constraint firstItem="zDw-uW-wIK" firstAttribute="centerY" secondItem="O3x-6m-FzU" secondAttribute="centerY" id="gCs-19-wTC"/>
+                <constraint firstItem="fo5-5V-Lqi" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mRp-sL-VZg"/>
+                <constraint firstAttribute="bottom" secondItem="8k0-Mr-v8U" secondAttribute="bottom" id="pH5-t3-72W"/>
+                <constraint firstItem="MwH-8E-LUg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="uP9-Pz-yuD"/>
+                <constraint firstItem="O3x-6m-FzU" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="zRD-04-PCQ"/>
+                <constraint firstItem="vnE-2T-mlI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="znA-Lb-VJc"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="37.600000000000001" y="41.829085457271368"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="93" height="93"/>
+        <image name="back_clk" width="93" height="93"/>
+        <image name="bg" width="898" height="1440"/>
+        <image name="progress" width="746" height="48"/>
+        <image name="progress_trick" width="746" height="48"/>
+    </resources>
+</document>
