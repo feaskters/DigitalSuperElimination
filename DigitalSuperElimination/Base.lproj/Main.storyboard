@@ -28,7 +28,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8w1-HM-KwA">
-                                <rect key="frame" x="87.5" y="398.5" width="200" height="70"/>
+                                <rect key="frame" x="87.5" y="348.5" width="200" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="EtY-sG-x9E"/>
                                     <constraint firstAttribute="height" constant="70" id="IRI-Kj-qhy"/>
@@ -41,16 +41,32 @@
                                     <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jpa-gh-8yQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucN-tb-w5K">
+                                <rect key="frame" x="87.5" y="438.5" width="200" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="dhp-Lr-Www"/>
+                                    <constraint firstAttribute="width" constant="200" id="jJ2-Uo-fhK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="玩法说明" backgroundImage="blue_btn">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="infoWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AyL-QI-JD0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="q7C-g1-08Q" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="24U-wB-o7y"/>
+                            <constraint firstItem="ucN-tb-w5K" firstAttribute="centerX" secondItem="8w1-HM-KwA" secondAttribute="centerX" id="3x2-8v-uGt"/>
                             <constraint firstItem="q7C-g1-08Q" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-150" id="7HI-MY-U6o"/>
-                            <constraint firstItem="8w1-HM-KwA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="IOU-Ua-U5M"/>
+                            <constraint firstItem="8w1-HM-KwA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="50" id="IOU-Ua-U5M"/>
                             <constraint firstAttribute="bottom" secondItem="RKp-Me-nmv" secondAttribute="bottom" id="IOc-Kt-f7J"/>
                             <constraint firstItem="RKp-Me-nmv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RFs-9C-Bgs"/>
                             <constraint firstItem="RKp-Me-nmv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bzH-WT-AQ4"/>
                             <constraint firstItem="8w1-HM-KwA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iQR-Rs-XEP"/>
+                            <constraint firstItem="ucN-tb-w5K" firstAttribute="top" secondItem="8w1-HM-KwA" secondAttribute="bottom" constant="20" id="lch-G9-ZIp"/>
                             <constraint firstItem="RKp-Me-nmv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="r2B-fI-w9y"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

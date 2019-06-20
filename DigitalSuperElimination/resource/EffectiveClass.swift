@@ -10,72 +10,72 @@ import UIKit
 
 class EffectiveClass: NSObject {
 
-    //晃动效果
-    class func shade(view:UIView) {
-        UIView.animate(withDuration: 0.5, animations: {
-            view.transform = CGAffineTransform.init(rotationAngle: 0.2)
-        }, completion: { (Bool) in
-            UIView.animate(withDuration: 0.5, animations: {
-                view.transform = CGAffineTransform.init(rotationAngle: -0.2)
-            }, completion: { (Bool) in
-                UIView.animate(withDuration: 0.5, animations: {
-                    view.transform = CGAffineTransform.init(rotationAngle: 0)
-                })
-            })
-        })
-    }
+//    //晃动效果
+//    class func shade(view:UIView) {
+//        UIView.animate(withDuration: 0.5, animations: {
+//            view.transform = CGAffineTransform.init(rotationAngle: 0.2)
+//        }, completion: { (Bool) in
+//            UIView.animate(withDuration: 0.5, animations: {
+//                view.transform = CGAffineTransform.init(rotationAngle: -0.2)
+//            }, completion: { (Bool) in
+//                UIView.animate(withDuration: 0.5, animations: {
+//                    view.transform = CGAffineTransform.init(rotationAngle: 0)
+//                })
+//            })
+//        })
+//    }
     
-    //顺时针旋转效果
-    class func rotateLeft(view:UIView) {
-        UIView.animate(withDuration: 0.5, animations: {
-            view.transform = CGAffineTransform.init(rotationAngle: 180)
-        }, completion: { (Bool) in
-            UIView.animate(withDuration: 0.5, animations: {
-                view.transform = CGAffineTransform.init(rotationAngle: -180)
-            }, completion: { (Bool) in
-                UIView.animate(withDuration: 0.5, animations: {
-                    view.transform = CGAffineTransform.init(rotationAngle: 0)
-                })
-            })
-        })
-    }
+//    //顺时针旋转效果
+//    class func rotateLeft(view:UIView) {
+//        UIView.animate(withDuration: 0.5, animations: {
+//            view.transform = CGAffineTransform.init(rotationAngle: 180)
+//        }, completion: { (Bool) in
+//            UIView.animate(withDuration: 0.5, animations: {
+//                view.transform = CGAffineTransform.init(rotationAngle: -180)
+//            }, completion: { (Bool) in
+//                UIView.animate(withDuration: 0.5, animations: {
+//                    view.transform = CGAffineTransform.init(rotationAngle: 0)
+//                })
+//            })
+//        })
+//    }
+//
+//    //旋转放缩效果
+//    class func rotateAndScale(view:UIView) {
+//        UIView.animate(withDuration: 0.5, animations: {
+//            view.transform = CGAffineTransform.init(scaleX: 0.5, y: 0.5).concatenating(CGAffineTransform.init(rotationAngle: 0.5))
+//        }, completion: { (Bool) in
+//            UIView.animate(withDuration: 0.5, animations: {
+//            }, completion: { (Bool) in
+//                UIView.animate(withDuration: 0.5, animations: {
+//                    view.transform = CGAffineTransform.init(scaleX: 2, y: 2).concatenating(CGAffineTransform.init(rotationAngle: 0))
+//                })
+//            })
+//        })
+//    }
+//
+//    //翻转效果
+//    class func reverse(view:UIView){
+//        view.layer.zPosition = 1000
+//        UIView.animate(withDuration: 0.25, animations: {
+//            view.layer.transform = CATransform3DRotate(view.layer.transform, CGFloat(Double.pi), 0, 1, 0)
+//        }) { (Bool) in
+//            UIView.animate(withDuration: 0.25) {
+//                view.layer.transform = CATransform3DRotate(view.layer.transform, CGFloat(Double.pi), 0, 1, 0)
+//            }
+//        }
+//    }
     
-    //旋转放缩效果
-    class func rotateAndScale(view:UIView) {
-        UIView.animate(withDuration: 0.5, animations: {
-            view.transform = CGAffineTransform.init(scaleX: 0.5, y: 0.5).concatenating(CGAffineTransform.init(rotationAngle: 0.5))
-        }, completion: { (Bool) in
-            UIView.animate(withDuration: 0.5, animations: {
-            }, completion: { (Bool) in
-                UIView.animate(withDuration: 0.5, animations: {
-                    view.transform = CGAffineTransform.init(scaleX: 2, y: 2).concatenating(CGAffineTransform.init(rotationAngle: 0))
-                })
-            })
-        })
-    }
-    
-    //翻转效果
-    class func reverse(view:UIView){
-        view.layer.zPosition = 1000
-        UIView.animate(withDuration: 0.25, animations: {
-            view.layer.transform = CATransform3DRotate(view.layer.transform, CGFloat(Double.pi), 0, 1, 0)
-        }) { (Bool) in
-            UIView.animate(withDuration: 0.25) {
-                view.layer.transform = CATransform3DRotate(view.layer.transform, CGFloat(Double.pi), 0, 1, 0)
-            }
-        }
-    }
-    
-    //按钮点击效果
-    class func buttonClick(view:UIView){
-        UIView.animate(withDuration: 0.1, animations: {
-            view.transform = CGAffineTransform.init(scaleX: 1.2, y: 1.2)
-        }) { (Bool) in
-            UIView.animate(withDuration: 0.1) {
-                view.transform = CGAffineTransform.init(scaleX: 1, y: 1)
-            }
-        }
-    }
+//    //按钮点击效果
+//    class func buttonClick(view:UIView){
+//        UIView.animate(withDuration: 0.1, animations: {
+//            view.transform = CGAffineTransform.init(scaleX: 1.2, y: 1.2)
+//        }) { (Bool) in
+//            UIView.animate(withDuration: 0.1) {
+//                view.transform = CGAffineTransform.init(scaleX: 1, y: 1)
+//            }
+//        }
+//    }
     
     //花里胡哨的翻页
     class func reversePage(view:UIView){
@@ -99,7 +99,7 @@ class EffectiveClass: NSObject {
                 UIView.animate(withDuration: 0.15, animations: {
                     view.frame = CGRect.init(x: view.frame.origin.x, y: view.frame.origin.y, width: view.frame.width, height: view.frame.height)
                 }, completion: nil)
-                
+
             }
         }
     }
@@ -119,17 +119,17 @@ class EffectiveClass: NSObject {
         })
     }
     
-    //放大后缩小效果
-    class func scaleBigToSmall(view:UIView){
-        UIView.animate(withDuration: 0.5, animations: {
-            view.transform = CGAffineTransform.init(scaleX: 1.2, y: 1.2)
-        }, completion: { (Bool) in
-            UIView.animate(withDuration: 0.5, animations: {
-                view.transform = CGAffineTransform.init(scaleX: 0.5, y: 0.5)
-            }, completion: { (Bool) in
-            })
-        })
-    }
+//    //放大后缩小效果
+//    class func scaleBigToSmall(view:UIView){
+//        UIView.animate(withDuration: 0.5, animations: {
+//            view.transform = CGAffineTransform.init(scaleX: 1.2, y: 1.2)
+//        }, completion: { (Bool) in
+//            UIView.animate(withDuration: 0.5, animations: {
+//                view.transform = CGAffineTransform.init(scaleX: 0.5, y: 0.5)
+//            }, completion: { (Bool) in
+//            })
+//        })
+//    }
     
     //左移至屏幕外
     class func moveLeftOutScreen(view:UIView){

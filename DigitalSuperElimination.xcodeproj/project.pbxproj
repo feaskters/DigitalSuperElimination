@@ -21,10 +21,8 @@
 		FEDE1DE022B88950003905D5 /* LevelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEDE1DDE22B88950003905D5 /* LevelViewController.xib */; };
 		FEDE1DE322B88AC2003905D5 /* CheckpointButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE1DE222B88AC2003905D5 /* CheckpointButton.swift */; };
 		FEDE1DF122B89DEE003905D5 /* EffectiveClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE1DE622B89DEE003905D5 /* EffectiveClass.swift */; };
-		FEDE1DF222B89DEE003905D5 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE1DE722B89DEE003905D5 /* UserDefault.swift */; };
 		FEDE1DF322B89DEE003905D5 /* button_click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FEDE1DE822B89DEE003905D5 /* button_click.mp3 */; };
 		FEDE1DF422B89DEE003905D5 /* Music.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDE1DEA22B89DEE003905D5 /* Music.m */; };
-		FEDE1DF522B89DEE003905D5 /* SystemLanguageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE1DEB22B89DEE003905D5 /* SystemLanguageClass.swift */; };
 		FEDE1DF722B89DEE003905D5 /* CheckPoints.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEDE1DED22B89DEE003905D5 /* CheckPoints.plist */; };
 		FEDE1DF822B89DEE003905D5 /* merge.wav in Resources */ = {isa = PBXBuildFile; fileRef = FEDE1DEE22B89DEE003905D5 /* merge.wav */; };
 		FEDE1DF922B89DEE003905D5 /* Checkpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDE1DF022B89DEE003905D5 /* Checkpoints.m */; };
@@ -48,11 +46,9 @@
 		FEDE1DE222B88AC2003905D5 /* CheckpointButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointButton.swift; sourceTree = "<group>"; };
 		FEDE1DE522B89DEE003905D5 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
 		FEDE1DE622B89DEE003905D5 /* EffectiveClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EffectiveClass.swift; sourceTree = "<group>"; };
-		FEDE1DE722B89DEE003905D5 /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 		FEDE1DE822B89DEE003905D5 /* button_click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button_click.mp3; sourceTree = "<group>"; };
 		FEDE1DE922B89DEE003905D5 /* Checkpoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checkpoints.h; sourceTree = "<group>"; };
 		FEDE1DEA22B89DEE003905D5 /* Music.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Music.m; sourceTree = "<group>"; };
-		FEDE1DEB22B89DEE003905D5 /* SystemLanguageClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemLanguageClass.swift; sourceTree = "<group>"; };
 		FEDE1DED22B89DEE003905D5 /* CheckPoints.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CheckPoints.plist; sourceTree = "<group>"; };
 		FEDE1DEE22B89DEE003905D5 /* merge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = merge.wav; sourceTree = "<group>"; };
 		FEDE1DEF22B89DEE003905D5 /* DigitalSuperElimination-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DigitalSuperElimination-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -121,11 +117,9 @@
 				FEDE1DE522B89DEE003905D5 /* Music.h */,
 				FEDE1DE622B89DEE003905D5 /* EffectiveClass.swift */,
 				FECA2FA422B9E14500FD282B /* BGM.mp3 */,
-				FEDE1DE722B89DEE003905D5 /* UserDefault.swift */,
 				FEDE1DE822B89DEE003905D5 /* button_click.mp3 */,
 				FEDE1DE922B89DEE003905D5 /* Checkpoints.h */,
 				FEDE1DEA22B89DEE003905D5 /* Music.m */,
-				FEDE1DEB22B89DEE003905D5 /* SystemLanguageClass.swift */,
 				FEDE1DED22B89DEE003905D5 /* CheckPoints.plist */,
 				FEDE1DEE22B89DEE003905D5 /* merge.wav */,
 				FEDE1DEF22B89DEE003905D5 /* DigitalSuperElimination-Bridging-Header.h */,
@@ -217,8 +211,6 @@
 				FE21B22C22B8D6A900F007C8 /* BlockButton.swift in Sources */,
 				FEDE1DDF22B88950003905D5 /* LevelViewController.swift in Sources */,
 				FEDE1DE322B88AC2003905D5 /* CheckpointButton.swift in Sources */,
-				FEDE1DF522B89DEE003905D5 /* SystemLanguageClass.swift in Sources */,
-				FEDE1DF222B89DEE003905D5 /* UserDefault.swift in Sources */,
 				FEDE1DCC22B87C0D003905D5 /* ViewController.swift in Sources */,
 				FEDE1DF122B89DEE003905D5 /* EffectiveClass.swift in Sources */,
 				FEDE1DCA22B87C0D003905D5 /* AppDelegate.swift in Sources */,
