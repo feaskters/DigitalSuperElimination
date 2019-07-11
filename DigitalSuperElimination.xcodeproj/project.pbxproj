@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FE21B22922B8D0D000F007C8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B22722B8D0D000F007C8 /* GameViewController.swift */; };
-		FE21B22A22B8D0D000F007C8 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE21B22822B8D0D000F007C8 /* GameViewController.xib */; };
 		FE21B22C22B8D6A900F007C8 /* BlockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE21B22B22B8D6A900F007C8 /* BlockButton.swift */; };
 		FECA2FA122B9D47300FD282B /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECA2FA022B9D47300FD282B /* GameOverView.swift */; };
 		FECA2FA322B9D81700FD282B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FECA2FA222B9D81700FD282B /* Assets.xcassets */; };
 		FECA2FA522B9E14500FD282B /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FECA2FA422B9E14500FD282B /* BGM.mp3 */; };
+		FED116E122D6C7E6004ECE3A /* SystemLanguageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED116E022D6C7E6004ECE3A /* SystemLanguageClass.swift */; };
+		FED116E222D6C82D004ECE3A /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED116E422D6C82D004ECE3A /* GameViewController.xib */; };
 		FEDE1DCA22B87C0D003905D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE1DC922B87C0D003905D5 /* AppDelegate.swift */; };
 		FEDE1DCC22B87C0D003905D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDE1DCB22B87C0D003905D5 /* ViewController.swift */; };
 		FEDE1DCF22B87C0D003905D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDE1DCD22B87C0D003905D5 /* Main.storyboard */; };
@@ -26,15 +27,22 @@
 		FEDE1DF722B89DEE003905D5 /* CheckPoints.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEDE1DED22B89DEE003905D5 /* CheckPoints.plist */; };
 		FEDE1DF822B89DEE003905D5 /* merge.wav in Resources */ = {isa = PBXBuildFile; fileRef = FEDE1DEE22B89DEE003905D5 /* merge.wav */; };
 		FEDE1DF922B89DEE003905D5 /* Checkpoints.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDE1DF022B89DEE003905D5 /* Checkpoints.m */; };
+		FEDE5A1122D6CE2600609171 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEDE5A1322D6CE2600609171 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE21B22722B8D0D000F007C8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		FE21B22822B8D0D000F007C8 /* GameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
 		FE21B22B22B8D6A900F007C8 /* BlockButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockButton.swift; sourceTree = "<group>"; };
 		FECA2FA022B9D47300FD282B /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		FECA2FA222B9D81700FD282B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FECA2FA422B9E14500FD282B /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BGM.mp3; sourceTree = "<group>"; };
+		FED116DC22D6C780004ECE3A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		FED116DD22D6C781004ECE3A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FED116DF22D6C78B004ECE3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FED116E022D6C7E6004ECE3A /* SystemLanguageClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemLanguageClass.swift; sourceTree = "<group>"; };
+		FED116E522D6C832004ECE3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GameViewController.xib; sourceTree = "<group>"; };
+		FED116E722D6C835004ECE3A /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/GameViewController.strings"; sourceTree = "<group>"; };
+		FED116E822D6C83D004ECE3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/GameViewController.strings; sourceTree = "<group>"; };
 		FEDE1DC622B87C0D003905D5 /* DigitalSuperElimination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalSuperElimination.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDE1DC922B87C0D003905D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEDE1DCB22B87C0D003905D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +61,8 @@
 		FEDE1DEE22B89DEE003905D5 /* merge.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = merge.wav; sourceTree = "<group>"; };
 		FEDE1DEF22B89DEE003905D5 /* DigitalSuperElimination-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DigitalSuperElimination-Bridging-Header.h"; sourceTree = "<group>"; };
 		FEDE1DF022B89DEE003905D5 /* Checkpoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Checkpoints.m; sourceTree = "<group>"; };
+		FEDE5A1222D6CE2600609171 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEDE5A1422D6CE2D00609171 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,7 @@
 		FEDE1DC822B87C0D003905D5 /* DigitalSuperElimination */ = {
 			isa = PBXGroup;
 			children = (
+				FEDE5A1322D6CE2600609171 /* InfoPlist.strings */,
 				FEDE1DE422B89DEE003905D5 /* resource */,
 				FEDE1DE122B88A90003905D5 /* game */,
 				FEDE1DC922B87C0D003905D5 /* AppDelegate.swift */,
@@ -104,7 +115,7 @@
 			children = (
 				FEDE1DE222B88AC2003905D5 /* CheckpointButton.swift */,
 				FE21B22722B8D0D000F007C8 /* GameViewController.swift */,
-				FE21B22822B8D0D000F007C8 /* GameViewController.xib */,
+				FED116E422D6C82D004ECE3A /* GameViewController.xib */,
 				FE21B22B22B8D6A900F007C8 /* BlockButton.swift */,
 				FECA2FA022B9D47300FD282B /* GameOverView.swift */,
 			);
@@ -114,6 +125,7 @@
 		FEDE1DE422B89DEE003905D5 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				FED116E022D6C7E6004ECE3A /* SystemLanguageClass.swift */,
 				FEDE1DE522B89DEE003905D5 /* Music.h */,
 				FEDE1DE622B89DEE003905D5 /* EffectiveClass.swift */,
 				FECA2FA422B9E14500FD282B /* BGM.mp3 */,
@@ -171,6 +183,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = FEDE1DBD22B87C0D003905D5;
 			productRefGroup = FEDE1DC722B87C0D003905D5 /* Products */;
@@ -191,11 +204,12 @@
 				FECA2FA522B9E14500FD282B /* BGM.mp3 in Resources */,
 				FEDE1DF322B89DEE003905D5 /* button_click.mp3 in Resources */,
 				FEDE1DF722B89DEE003905D5 /* CheckPoints.plist in Resources */,
-				FE21B22A22B8D0D000F007C8 /* GameViewController.xib in Resources */,
+				FED116E222D6C82D004ECE3A /* GameViewController.xib in Resources */,
 				FEDE1DF822B89DEE003905D5 /* merge.wav in Resources */,
 				FEDE1DCF22B87C0D003905D5 /* Main.storyboard in Resources */,
 				FECA2FA322B9D81700FD282B /* Assets.xcassets in Resources */,
 				FEDE1DE022B88950003905D5 /* LevelViewController.xib in Resources */,
+				FEDE5A1122D6CE2600609171 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +222,7 @@
 			files = (
 				FE21B22922B8D0D000F007C8 /* GameViewController.swift in Sources */,
 				FEDE1DF422B89DEE003905D5 /* Music.m in Sources */,
+				FED116E122D6C7E6004ECE3A /* SystemLanguageClass.swift in Sources */,
 				FE21B22C22B8D6A900F007C8 /* BlockButton.swift in Sources */,
 				FEDE1DDF22B88950003905D5 /* LevelViewController.swift in Sources */,
 				FEDE1DE322B88AC2003905D5 /* CheckpointButton.swift in Sources */,
@@ -222,10 +237,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		FED116E422D6C82D004ECE3A /* GameViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED116E522D6C832004ECE3A /* Base */,
+				FED116E722D6C835004ECE3A /* zh-Hans */,
+				FED116E822D6C83D004ECE3A /* en */,
+			);
+			name = GameViewController.xib;
+			sourceTree = "<group>";
+		};
 		FEDE1DCD22B87C0D003905D5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FEDE1DCE22B87C0D003905D5 /* Base */,
+				FED116DC22D6C780004ECE3A /* zh-Hans */,
+				FED116DF22D6C78B004ECE3A /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -234,8 +261,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				FEDE1DD322B87C0F003905D5 /* Base */,
+				FED116DD22D6C781004ECE3A /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FEDE5A1322D6CE2600609171 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEDE5A1222D6CE2600609171 /* en */,
+				FEDE5A1422D6CE2D00609171 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -245,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -307,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -364,13 +403,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7M2A724UM8;
 				INFOPLIST_FILE = DigitalSuperElimination/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zmhProjectaaaaaa.DigitalSuperElimination;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmhProject.DigitalSuperElimination;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -382,13 +422,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7M2A724UM8;
 				INFOPLIST_FILE = DigitalSuperElimination/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zmhProjectaaaaaa.DigitalSuperElimination;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zmhProject.DigitalSuperElimination;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

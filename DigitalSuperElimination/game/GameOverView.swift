@@ -18,21 +18,36 @@ class GameOverView: UIView {
         
         self.addSubview(backgroundImage)
         
-        let resultLabel = UILabel.init(frame: CGRect.init(x: self.frame.width / 2 - 50, y: 50, width: 100, height: 50))
+        let resultLabel = UILabel.init(frame: CGRect.init(x: self.frame.width / 2 - 75, y: 50, width: 150, height: 50))
         resultLabel.textColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
         resultLabel.font = UIFont.systemFont(ofSize: 36)
         resultLabel.textAlignment = NSTextAlignment.center
-        if result {
-            resultLabel.text = "成功"
+        if SystemLanguageClass.getCurrentLanguage() == "cn"{
+            if result {
+                resultLabel.text = "成功"
+            }else{
+                resultLabel.text = "失败"
+            }
         }else{
-            resultLabel.text = "失败"
+            if result {
+                resultLabel.text = "success"
+            }else{
+                resultLabel.text = "failed"
+            }
         }
+        
         self.addSubview(resultLabel)
         
         let timeLabel = UILabel.init(frame: CGRect.init(x: self.frame.width / 2 - 50, y: 120, width: 100, height: 50))
         timeLabel.textAlignment = NSTextAlignment.center
         timeLabel.textColor = UIColor.white
-        timeLabel.text = "剩余时间: " + time
+        if SystemLanguageClass.getCurrentLanguage() == "cn"{
+            
+            timeLabel.text = "剩余时间: " + time
+        }else{
+            
+            timeLabel.text = "left time: " + time
+        }
         self.addSubview(timeLabel)
     }
 

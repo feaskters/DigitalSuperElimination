@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "开始游戏"; ObjectID = "8w1-HM-KwA"; */
+"8w1-HM-KwA.normalTitle" = "开始游戏";
+
+/* Class = "UILabel"; text = "数字减减"; ObjectID = "q7C-g1-08Q"; */
+"q7C-g1-08Q.text" = "数字减减";
+
+/* Class = "UIButton"; normalTitle = "玩法说明"; ObjectID = "ucN-tb-w5K"; */
+"ucN-tb-w5K.normalTitle" = "玩法说明";

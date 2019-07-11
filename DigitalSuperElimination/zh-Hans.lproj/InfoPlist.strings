@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  DigitalSuperElimination
+
+  Created by role on 2019/7/11.
+  Copyright © 2019 zmhProjectaaaaaa. All rights reserved.
+*/
+CFBundleDisplayName = "数字减减";
+CFBundleName = "数字减减";
