@@ -8,7 +8,8 @@ IOS项目-数字减减
 
 ## 玩法介绍
 - 点击数字将会减小自身和周围的数字，当所有的数字变为0时，获得胜利。
-<img src="/DigitalSuperElimination/screenshot/1.png" width="200" height="400" style="display:inline;"/><img src="/DigitalSuperElimination/screenshot/2.png" width="200" height="400" style="display:inline;"/>
+
+<div style="float: left; position: relative;left: 40%;"><img src="/DigitalSuperElimination/screenshot/1.png" width="200" height="400" style="display:inline;"/><img src="/DigitalSuperElimination/screenshot/2.png" width="200" height="400" style="display:inline;"/></div>
 
 ## 所学技术
 - 对之前所学技术的整合使用。
